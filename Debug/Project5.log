@@ -1,0 +1,53 @@
+﻿Build started 24/09/2019 18:50:39.
+     1>Project "c:\Users\julia's pc\documents\visual studio 2012\Projects\Project5\Project5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\julia's pc\documents\visual studio 2012\Projects\Project5\clientes.c" "..\..\..\..\..\julia's pc\documents\visual studio 2012\Projects\Project5\consulta.c" "..\..\..\..\..\julia's pc\documents\visual studio 2012\Projects\Project5\main.c" "..\..\..\..\..\julia's pc\documents\visual studio 2012\Projects\Project5\medicos.c" "..\..\..\..\..\julia's pc\documents\visual studio 2012\Projects\Project5\tree.c" "..\..\..\..\..\julia's pc\documents\visual studio 2012\Projects\Project5\validacao.c"
+         validacao.c
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(28): warning C4013: 'validaNome' undefined; assuming extern returning int
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(34): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(45): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(66): warning C4013: 'validaTel' undefined; assuming extern returning int
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(72): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(96): warning C4013: 'validaEmail' undefined; assuming extern returning int
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(102): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(133): warning C4013: 'validaCPF' undefined; assuming extern returning int
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(148): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(159): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(189): warning C4013: 'validaCRM' undefined; assuming extern returning int
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(202): warning C4013: 'validaSigla' undefined; assuming extern returning int
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(236): warning C4013: 'validarData' undefined; assuming extern returning int
+         tree.c
+         medicos.c
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\medicos.c(61): warning C4101: 'resp2' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\medicos.c(165): warning C4101: 'horario' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\medicos.c(165): warning C4101: 'resp2' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\medicos.c(165): warning C4101: 'respj' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\medicos.c(165): warning C4101: 'respi' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\medicos.c(166): warning C4101: 'resposta' : unreferenced local variable
+         main.c
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\main.c(24): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\main.c(25): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\main.c(26): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+         consulta.c
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\consulta.c(41): warning C4101: 'statusM' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\consulta.c(92): warning C4550: expression evaluates to a function which is missing an argument list
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\consulta.c(155): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\consulta.c(179): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         clientes.c
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\clientes.c(37): warning C4101: 'resp2' : unreferenced local variable
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\clientes.c(140): warning C4098: 'cadastrarPaciente' : 'void' function returning a value
+         Generating Code...
+     1>c:\users\julia's pc\documents\visual studio 2012\projects\project5\validacao.c(30): warning C4716: 'pegarNome' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\julia's pc\documents\visual studio 2012\Projects\Project5\Debug\Project5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\julia's pc\documents\visual studio 2012\Projects\Project5\Debug\Project5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\julia's pc\documents\visual studio 2012\Projects\Project5\Debug\Project5.lib" /MACHINE:X86 Debug\clientes.obj
+         Debug\consulta.obj
+         Debug\main.obj
+         Debug\medicos.obj
+         Debug\tree.obj
+         Debug\validacao.obj
+         Project5.vcxproj -> c:\users\julia's pc\documents\visual studio 2012\Projects\Project5\Debug\Project5.exe
+     1>Done Building Project "c:\Users\julia's pc\documents\visual studio 2012\Projects\Project5\Project5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.40
